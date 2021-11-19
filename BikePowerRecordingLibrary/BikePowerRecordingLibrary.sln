@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowerRecordingLib", "PowerRecordingLib\PowerRecordingLib.vcxproj", "{846DEAF9-B904-4E2C-9E62-F7199A894F86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowerRecordingExample", "PowerRecordingExample\PowerRecordingExample.vcxproj", "{491FDD5B-A409-4FCD-AFCA-12E0343CC7A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{929444E0-FE12-4443-AC5C-ECA07B46A9F8} = {929444E0-FE12-4443-AC5C-ECA07B46A9F8}
+		{846DEAF9-B904-4E2C-9E62-F7199A894F86} = {846DEAF9-B904-4E2C-9E62-F7199A894F86}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ANT_LIB", "ANT_LIB\ANT_LIB.vcxproj", "{929444E0-FE12-4443-AC5C-ECA07B46A9F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{846DEAF9-B904-4E2C-9E62-F7199A894F86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{846DEAF9-B904-4E2C-9E62-F7199A894F86}.Debug|Win32.Build.0 = Debug|Win32
+		{846DEAF9-B904-4E2C-9E62-F7199A894F86}.Release|Win32.ActiveCfg = Release|Win32
+		{846DEAF9-B904-4E2C-9E62-F7199A894F86}.Release|Win32.Build.0 = Release|Win32
+		{491FDD5B-A409-4FCD-AFCA-12E0343CC7A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{491FDD5B-A409-4FCD-AFCA-12E0343CC7A2}.Debug|Win32.Build.0 = Debug|Win32
+		{491FDD5B-A409-4FCD-AFCA-12E0343CC7A2}.Release|Win32.ActiveCfg = Release|Win32
+		{491FDD5B-A409-4FCD-AFCA-12E0343CC7A2}.Release|Win32.Build.0 = Release|Win32
+		{929444E0-FE12-4443-AC5C-ECA07B46A9F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{929444E0-FE12-4443-AC5C-ECA07B46A9F8}.Debug|Win32.Build.0 = Debug|Win32
+		{929444E0-FE12-4443-AC5C-ECA07B46A9F8}.Release|Win32.ActiveCfg = Release|Win32
+		{929444E0-FE12-4443-AC5C-ECA07B46A9F8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
